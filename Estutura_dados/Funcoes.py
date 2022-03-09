@@ -3,7 +3,7 @@ def perguntar():
                "(I) Inserir um usuario \n" +
                "(P) Pesquisar um usuario \n" +
                "(E) Excluir um usaurio \n" +
-               "(L) Listar um usario").upper()
+               "(L) Listar um usario \n \n").upper()
     return resposta
 
 def inserir(dicinonario):
