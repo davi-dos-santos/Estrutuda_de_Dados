@@ -6,6 +6,15 @@ while opcao =="I" or opcao=="P" or opcao=="E" or opcao=="L":
   inserir(usuarios)
  opcao = perguntar()
 
+from Estutura_dados.Funcoes import *
+usuarios={}
+
+opcao=perguntar()
+while opcao =="I" or opcao=="P" or opcao=="E" or opcao=="L":
+ if opcao=="I":
+  inserir(usuarios)
+ if opcao == "P":
+  pesquisar()
 
 #usuarios={}
 #opcao=input(" O que deseja fazer \n"+
