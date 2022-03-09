@@ -1,3 +1,12 @@
+from Estutura_dados.Funcoes import *
+usuarios = {}
+opcao = perguntar()
+while opcao =="I" or opcao=="P" or opcao=="E" or opcao=="L":
+ if opcao=="I":
+  inserir(usuarios)
+ opcao = perguntar()
+
+
 usuarios={}
 opcao=input(" O que deseja fazer \n"+
             "(I) Inserir um usuario \n"+
