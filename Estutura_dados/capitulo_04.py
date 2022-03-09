@@ -14,7 +14,12 @@ while opcao =="I" or opcao=="P" or opcao=="E" or opcao=="L":
  if opcao=="I":
   inserir(usuarios)
  if opcao == "P":
-  pesquisar()
+  pesquisar(usuarios, input("Qual login dejsa Pesquisar? "))
+ if opcao == "E":
+  pesquisar(usuarios, input("Qual login deseja excluir"))
+ if opcao == "L":
+  listar(usuarios)
+ opcao = perguntar()
 
 #usuarios={}
 #opcao=input(" O que deseja fazer \n"+
