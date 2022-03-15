@@ -7,9 +7,11 @@ def perguntar():
     return resposta
 
 def inserir(dicinonario):
-    dicinonario[input("Digite o Login: ").upper() ] = [input("digite o nome: ").upper(),
-                                                       input("difite a ultima data de acesso: "),
-                                                       input("difite a ultima estaçao acessada: ").upper()]
+    dicinonario[input("digite Login: ").upper()]=[
+            input("Digete nome: "),
+            input("data ultimo acesso: "),
+            input("ultima estação: ").upper()]
+
 def pesquisar(dicinonario, chave):
     lista = dicinonario.get (chave)
     if lista!=None:
