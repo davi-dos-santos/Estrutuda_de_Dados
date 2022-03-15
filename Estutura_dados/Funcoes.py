@@ -12,6 +12,7 @@ def inserir(dicinonario):
             input("data ultimo acesso: "),
             input("ultima estação: ").upper()]
 
+
 def pesquisar(dicinonario, chave):
     lista = dicinonario.get (chave)
     if lista!=None:
