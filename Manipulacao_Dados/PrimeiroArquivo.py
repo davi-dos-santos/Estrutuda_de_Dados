@@ -10,7 +10,8 @@
 # with open("primeiro_arquivo.txt", "r") as arquivo:
 #     conteudo = arquivo.read()
 #     print(conteudo)
-
-with open("primeiro_arquivo.txt", "r") as arquivo:
+#
+# x = exclusivo depois que abrir niguem consegue editar
+with open("primeiro_arquivo.txt", "x") as arquivo:
     for linha in arquivo.readlines():
         print(linha)

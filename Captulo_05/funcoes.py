@@ -9,3 +9,9 @@ def inserir(dicionario):
     dicionario[input("Chave: ").upper()] = [input("Nome: ").upper(),
                                             input("Data: "),
                                             input("estação: ").upper()]
+    salvar(dicionario)
+
+def salvar(dicionario):
+    with open("BD.txt", "a") as arquivo:
+        for chave, valor in dicionario.items():
+            arquivo.write(chave + ":" + str(valor))

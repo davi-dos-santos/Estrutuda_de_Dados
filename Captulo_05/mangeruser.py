@@ -1,4 +1,4 @@
-from Captulo_04.funcoes import *
+from Captulo_05.funcoes import *
 
 usuarisos = {}
 opcao = perguntar()
