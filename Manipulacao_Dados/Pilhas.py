@@ -1,7 +1,7 @@
 parentese = input("Digite os parênteses para validar:")
 x = 0
-
 pilha = []
+
 while x < len(parentese):
     if parentese[x] == "(":
         pilha.append("(")

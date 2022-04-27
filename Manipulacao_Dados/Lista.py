@@ -1,5 +1,6 @@
 parentese = str(input("Digite os parênteses para validar:"))
 lista = []
+
 for x in parentese:
     if parentese == "(":
         lista.append("(")
